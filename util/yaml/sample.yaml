@@ -1,0 +1,9 @@
+first:
+  image:
+    repo: "script-collection-first"
+    tag: "20220831-first"
+
+second:
+  image:
+    repo: "script-collection-second"
+    tag: "20220831-second"
