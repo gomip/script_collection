@@ -5,7 +5,8 @@ root                                            root
 |   ├ ecr                                       |   ├ ecr 서비스 관련 디렉토리
 |   |   └ copy-image.sh                         |   |   └ AWS 계정에서 다른 계정에 이미지 복사
 |   └ iam                                       |   └ iam 서비스 관련 디렉토리
-|       └ eks                                   |       └ eks 에 필요한 권한 생성 스크립트
+|       | eks                                   |       | eks 에 필요한 권한 생성 스크립트
+|       └ github-action                         |       └ github action ci 용 계정 생성   
 └ github-action                                 └ github action 관련 디렉토리
     └ yaml                                          └ yaml 파싱해서 특정 value 가져오기
 ```
